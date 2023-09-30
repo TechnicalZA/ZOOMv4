@@ -274,8 +274,6 @@ def m3():
     limit = int(input('[+] Idz Limit : '))
     print(46*'-')
     for nmbr in range(limit):
-    	koda = ''.join(random.choice(string.digits) for _ in range(4))
-	kodb = ''.join(random.choice(string.digits) for _ in range(4))
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
     with ThreadPool(max_workers=30) as yaari:
